@@ -1,0 +1,281 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #62DCE7;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+nav{
+    background-color: #12BBD0;
+    padding: 5px 10%;
+    display: flex;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+
+main{
+    padding: 10px;
+    min-height: 800px;
+}
+
+.box1{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.box2{
+    display: flex;
+}
+
+h3{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #12BBD0;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.h3bis{
+    font-size: 25px;
+}
+
+.news{
+    background-color: #B3EFF2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.newsImages{
+    display: flex;
+}
+
+.newsImagesSecondaires{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgpad{
+    padding: 5px;
+}
+
+.evenement{
+    background-color: #B3EFF2;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+h4{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #12BBD0;
+    font-size: 30px;
+    text-align: center;
+}
+
+h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #12BBD0;
+    margin: 0px;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.box5{
+    display: flex;
+}
+
+.cardthumbnail{
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.box6{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.article{
+    background-color: #B3EFF2;
+    border-radius: 10px;
+    min-width: 15%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #62DCE7;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logomedia{
+    margin: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 800px){
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .box2{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .news{
+        max-width: 42%;
+    }
+
+    .newsImages{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsImagesPrimaires{
+        max-width: 380px;
+        max-height: 214px;
+    }
+
+    .imgpad{
+        max-width: 180px;
+        max-height: 103px;
+    }
+
+    .evenement{
+        min-width: 53svw;
+        flex-direction: row;
+    }
+
+    .logoevent{
+        max-width: 200px;
+        max-height: 100px;
+    }
+
+    .box5{
+        justify-content: space-between;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 35px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2{
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .box2{
+        flex-direction: column;
+    }
+
+    .news{
+        max-width: 95%;
+    }
+
+    .newsImages{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsImagesPrimaires{
+        max-width: 100%;
+        max-height: 190px;
+        padding-bottom: 10px;
+    }
+
+    .imgpad{
+        max-width: 145px;
+        max-height: 95px;
+    }
+
+    .evenement{
+        min-width: 95%;
+        flex-direction: column;
+    }
+
+    .logoevent{
+        max-width: 220px;
+        max-height: 110px;
+        align-self: center;
+    }
+    
+    h5{
+        text-align: center;
+    }
+
+    .box5{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 400px;
+    }
+
+    .box6{
+        flex-direction: column;
+    }
+
+    .article{
+        margin-bottom: 10px;
+    }
+}
+
+
+
